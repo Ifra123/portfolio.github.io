@@ -198,3 +198,28 @@ table{
     color: #eee;
     padding: 0. 5rem;
 }
+.Internship .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Internship .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Internship .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Internship .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
