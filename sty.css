@@ -169,6 +169,13 @@ table{
     color: white;
     font-size: medium;
     padding: .5rem 1rem;
+
+}
+#lis li{
+    margin: 0 9rem;
+    color: white;
+    font-size: medium;
+    padding: .5rem 1rem;
 }
 .Projects .Row{
     display: flex;
@@ -195,6 +202,32 @@ table{
     color: #eee;
     padding: 0. 5rem;
 }
+.Co-Circuler Activities .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Co-Circuler Activities .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Co-Circuler Activities .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Co-Circuler Activities .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
 .Internship .Row{
     display: flex;
     align-items: center;
@@ -217,6 +250,31 @@ table{
 }
 
 .Internship .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+.Hobbies .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Hobbies .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Hobbies .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Hobbies .Row .det h3 span{
     color: #eee;
     padding: 0. 5rem;
 }
