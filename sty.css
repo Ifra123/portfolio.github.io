@@ -53,17 +53,6 @@ body{
 .head span{
     color: yellow;
 }
-.head1{
-    text-align: center;
-    margin: 0 6rem;
-    font-size: 4rem;
-    padding-top: 5rem;
-    border-bottom: .1rem solid #fff4;
-    color: #fff;
-}
-.head1 span{
-    color: yellow;
-}
 .pro{
     text-align: center;
     margin: 0 6rem;
@@ -135,7 +124,7 @@ header .nv ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 
 .Details .Row .det{
@@ -178,31 +167,35 @@ table{
 #lis li{
     margin: 0 9rem;
     color: white;
-    font-size: 1rem;
+    font-size: medium;
     padding: .5rem 1rem;
 }
-.Projects .Row{
+.Project .Row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
-.Projects .Row .det{
+
+.Project .Row .det{
     flex: 1 1 48rem;
     padding: 2rem 1rem;
     padding-left: 8rem;
 }
-.Projects .Row .det h3{
+
+.Project .Row .det h3{
     font-size: 2rem;
     color: yellow;
     padding: 1rem 0;
     font-weight: normal;
 }
-.Projects .Row .det h3 span{
+
+.Project .Row .det h3 span{
     color: #eee;
     padding: 0. 5rem;
 }
+
 .Internship .Row{
     display: flex;
     align-items: center;
